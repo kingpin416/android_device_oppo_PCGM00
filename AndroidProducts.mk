@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_RMX1901.mk
+    $(LOCAL_DIR)/revengeos_PCGM00.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_RMX1901-userdebug \
-    revengeos_RMX1901-eng
+    revengeos_PCGM00-userdebug \
+    revengeos_PCGM00-eng

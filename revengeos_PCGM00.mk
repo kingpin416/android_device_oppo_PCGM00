@@ -15,11 +15,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_BRAND := Realme
-PRODUCT_DEVICE := RMX1901
-PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := revengeos_RMX1901
-PRODUCT_MODEL := Realme X
+PRODUCT_BRAND := Oppo
+PRODUCT_DEVICE := PCGM00
+PRODUCT_MANUFACTURER := Oppo
+PRODUCT_NAME := revengeos_PCGM00
+PRODUCT_MODEL := Oppo K3
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
@@ -27,7 +27,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="coral-user 11 RP1A.201105.002 6869500 release-keys" \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys
+BUILD_FINGERPRINT := oppo/PCGM00/PCGM00:11/RP1A.201105.002/6869500:user/release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)

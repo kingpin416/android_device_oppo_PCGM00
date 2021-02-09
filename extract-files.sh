@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=RMX1901
-VENDOR=realme
+DEVICE=PCGM00
+VENDOR=oppo
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
